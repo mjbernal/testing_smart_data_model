@@ -42,6 +42,6 @@
     "id",
     "type",
     "dateObserved",
-    "location",
+    "location"
   ]
 }
