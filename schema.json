@@ -9,31 +9,7 @@
       "type": "string",
       "description": "Property. Some description"
     },
-    "address": {
-      "type": "object",
-      "description": "Property. Some description",
-      "properties": {
-        "addressCountry": {
-          "type": "string"
-        },
-        "addressLocality": {
-          "type": "string"
-        },
-        "streetAddress": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "addressCountry",
-        "addressLocality",
-        "streetAddress"
-      ]
-    },
     "dateObserved": {
-      "type": "string",
-      "description": "Property. Some description"
-    },
-    "areaServed": {
       "type": "string",
       "description": "Property. Some description"
     },
@@ -60,99 +36,12 @@
         "type",
         "coordinates"
       ]
-    },
-    "source": {
-      "type": "string",
-      "description": "Property. Some description"
-    },
-    "typeOfLocation": {
-      "type": "string",
-      "description": "Property. Some description"
-    },
-    "precipitation": {
-      "type": "integer",
-      "description": "Property. Some description"
-    },
-    "relativeHumidity": {
-      "type": "number",
-      "description": "Property. Some description"
-    },
-    "temperature": {
-      "type": "number",
-      "description": "Property. Some description"
-    },
-    "windDirection": {
-      "type": "integer",
-      "description": "Property. Some description"
-    },
-    "windSpeed": {
-      "type": "number",
-      "description": "Property. Some description"
-    },
-    "airQualityLevel": {
-      "type": "string",
-      "description": "Property. Some description"
-    },
-    "airQualityIndex": {
-      "type": "integer",
-      "description": "Property. Some description"
-    },
-    "reliability": {
-      "type": "number",
-      "description": "Property. Some description"
-    },
-    "co": {
-      "type": "integer",
-      "description": "Property. Some description"
-    },
-    "no": {
-      "type": "integer",
-      "description": "Property. Some description"
-    },
-    "co2": {
-      "type": "integer",
-      "description": "Property. Some description"
-    },
-    "nox": {
-      "type": "integer",
-      "description": "Property. Some description"
-    },
-    "so2": {
-      "type": "integer",
-      "description": "Property. Some description"
-    },
-    "coLevel": {
-      "type": "string",
-      "description": "Property. Some description"
-    },
-    "refPointOfInterest": {
-      "type": "string",
-      "description": "Property. Some description"
     }
   },
   "required": [
     "id",
-    "type",
-    "address",
+    "type"
     "dateObserved",
-    "areaServed",
     "location",
-    "source",
-    "typeOfLocation",
-    "precipitation",
-    "relativeHumidity",
-    "temperature",
-    "windDirection",
-    "windSpeed",
-    "airQualityLevel",
-    "airQualityIndex",
-    "reliability",
-    "co",
-    "no",
-    "co2",
-    "nox",
-    "so2",
-    "coLevel",
-    "refPointOfInterest"
   ]
 }
