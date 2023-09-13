@@ -40,7 +40,7 @@
   },
   "required": [
     "id",
-    "type"
+    "type",
     "dateObserved",
     "location",
   ]
