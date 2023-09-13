@@ -6,10 +6,12 @@
       "type": "string"
     },
     "type": {
-      "type": "string"
+      "type": "string",
+      "description": "Some description"
     },
     "address": {
       "type": "object",
+      "description": "Some description",
       "properties": {
         "addressCountry": {
           "type": "string"
@@ -28,13 +30,16 @@
       ]
     },
     "dateObserved": {
-      "type": "string"
+      "type": "string",
+      "description": "Some description"
     },
     "areaServed": {
-      "type": "string"
+      "type": "string",
+      "description": "Some description"
     },
     "location": {
       "type": "object",
+      "description": "Some description",
       "properties": {
         "type": {
           "type": "string"
@@ -57,55 +62,72 @@
       ]
     },
     "source": {
-      "type": "string"
+      "type": "string",
+      "description": "Some description"
     },
     "typeOfLocation": {
-      "type": "string"
+      "type": "string",
+      "description": "Some description"
     },
     "precipitation": {
-      "type": "integer"
+      "type": "integer",
+      "description": "Some description"
     },
     "relativeHumidity": {
-      "type": "number"
+      "type": "number",
+      "description": "Some description"
     },
     "temperature": {
-      "type": "number"
+      "type": "number",
+      "description": "Some description"
     },
     "windDirection": {
-      "type": "integer"
+      "type": "integer",
+      "description": "Some description"
     },
     "windSpeed": {
-      "type": "number"
+      "type": "number",
+      "description": "Some description"
     },
     "airQualityLevel": {
-      "type": "string"
+      "type": "string",
+      "description": "Some description"
     },
     "airQualityIndex": {
-      "type": "integer"
+      "type": "integer",
+      "description": "Some description"
     },
     "reliability": {
-      "type": "number"
+      "type": "number",
+      "description": "Some description"
     },
     "co": {
-      "type": "integer"
+      "type": "integer",
+      "description": "Some description"
     },
     "no": {
-      "type": "integer"
+      "type": "integer",
+      "description": "Some description"
     },
     "co2": {
-      "type": "integer"
+      "type": "integer",
+      "description": "Some description"
     },
     "nox": {
-      "type": "integer"
+      "type": "integer",
+      "description": "Some description"
     },
     "so2": {
-      "type": "integer"
+      "type": "integer",
+      "description": "Some description"
     },
     "coLevel": {
-      "type": "string"
+      "type": "string",
+      "description": "Some description"
     },
     "refPointOfInterest": {
-      "type": "string"
+      "type": "string",
+      "description": "Some description"
     }
   },
   "required": [
