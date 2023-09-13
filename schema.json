@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "addressCountry": {
+          "type": "string"
+        },
+        "addressLocality": {
+          "type": "string"
+        },
+        "streetAddress": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "addressCountry",
+        "addressLocality",
+        "streetAddress"
+      ]
+    },
+    "dateObserved": {
+      "type": "string"
+    },
+    "areaServed": {
+      "type": "string"
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "coordinates": {
+          "type": "array",
+          "items": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        }
+      },
+      "required": [
+        "type",
+        "coordinates"
+      ]
+    },
+    "source": {
+      "type": "string"
+    },
+    "typeOfLocation": {
+      "type": "string"
+    },
+    "precipitation": {
+      "type": "integer"
+    },
+    "relativeHumidity": {
+      "type": "number"
+    },
+    "temperature": {
+      "type": "number"
+    },
+    "windDirection": {
+      "type": "integer"
+    },
+    "windSpeed": {
+      "type": "number"
+    },
+    "airQualityLevel": {
+      "type": "string"
+    },
+    "airQualityIndex": {
+      "type": "integer"
+    },
+    "reliability": {
+      "type": "number"
+    },
+    "co": {
+      "type": "integer"
+    },
+    "no": {
+      "type": "integer"
+    },
+    "co2": {
+      "type": "integer"
+    },
+    "nox": {
+      "type": "integer"
+    },
+    "so2": {
+      "type": "integer"
+    },
+    "coLevel": {
+      "type": "string"
+    },
+    "refPointOfInterest": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "address",
+    "dateObserved",
+    "areaServed",
+    "location",
+    "source",
+    "typeOfLocation",
+    "precipitation",
+    "relativeHumidity",
+    "temperature",
+    "windDirection",
+    "windSpeed",
+    "airQualityLevel",
+    "airQualityIndex",
+    "reliability",
+    "co",
+    "no",
+    "co2",
+    "nox",
+    "so2",
+    "coLevel",
+    "refPointOfInterest"
+  ]
+}
