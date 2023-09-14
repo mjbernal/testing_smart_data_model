@@ -9,10 +9,6 @@
       "type": "string",
       "description": "Property. Some description"
     },
-    "dateObserved": {
-      "type": "string",
-      "description": "Property. Some description"
-    },
     "location": {
       "type": "object",
       "description": "Property. Some description",
@@ -41,7 +37,6 @@
   "required": [
     "id",
     "type",
-    "dateObserved",
     "location"
   ]
 }
